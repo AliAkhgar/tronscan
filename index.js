@@ -12,6 +12,7 @@ tronWeb.setHeader({ "TRON-PRO-API-KEY": TRON_SCAN_API_KEY });
 var tronGrid = new TronGrid(tronWeb);
 
 export function init(TronScanAPIKey) {
+  if (!TronScanAPIKey) return;
   TRON_SCAN_API_KEY = TronScanAPIKey;
   tronWeb = new TronWeb({
     fullHost: "https://api.trongrid.io",

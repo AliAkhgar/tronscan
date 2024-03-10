@@ -1,6 +1,6 @@
 {
   "name": "tronscan",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Scan Tron On The Fly",
   "main": "index.js",
   "scripts": {
