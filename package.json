@@ -1,6 +1,6 @@
 {
   "name": "tronscan",
-  "version": "1.0.2",
+  "version": "1.0.21",
   "description": "Scan Tron On The Fly",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/aliakhgar/tronscan"
+    "url": "https://github.com/aliakhgar/tronscan"
   },
   "author": "Ali Akhgar <theakhgar@gmail.com> (https://aliakhgar.com/)",
   "license": "ISC",
