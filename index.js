@@ -23,11 +23,12 @@ export function init(TronScanAPIKey) {
 }
 
 export function getTranscations(
+  address,
   options = { onlyTo: true, onlyConfirmed: false }
 ) {
   return new Promise(async (resolve, reject) => {
     tronGrid.account
-      .getTransactions("TR8VXtfeUkLjF4cBfi94W8ty2sFvKprQDf", options)
+      .getTransactions(address, options)
       .then((res) => {
         resolve(res);
       })
